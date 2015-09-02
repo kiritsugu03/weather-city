@@ -1,0 +1,19 @@
+{
+  "name": "@kornrok/weather-city",
+  "version": "1.0.0",
+  "description": "Weather City",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "weather-city"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "weather-city": "app.js"
+  },
+  "dependencies": {
+    "opener": "^1.4.1",
+    "request": "^2.61.0"
+  }
+}
